@@ -1,0 +1,200 @@
+* {
+margin:0;
+padding: 0;
+box-sizing: border-box;
+font-family:"Kanit",sans-serif;
+}
+
+html {
+    font-size:62.5%;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: #575b67;
+    position:relative;
+    overflow:hidden;
+}
+
+.bg {
+    width: 180rem;
+    height: 180rem;
+    border-radius:50%;
+    background-color:#3b3f4b;
+    position:absolute;
+}
+
+.bg-1 {
+   right: -45%; 
+   top:-10%;
+}
+
+.bg-2 {
+    right: -15%;
+    top:35%;
+}
+
+.cartao {
+    width: 120rem;
+    height: 70rem;
+    background-color:#5c5e66;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border-radius:1rem;
+    box-shadow:0 1rem 6rem rgba(0,0,0,0.4);
+}
+.cartao-bg-capa {
+    width: 100%;
+    height: 100%;
+    position:relative;
+    overflow:hidden;
+    border-radius: 1rem 0 0 1rem;
+}
+
+.cartao-bg {
+    width: 100%;
+    height: 200%;
+    background-color: #52555d;
+    position: absolute;
+    left:-55%;
+    top:-50%;
+    transform:rotateZ(-40deg);
+    border-radius:0 50% 50% 0;
+}
+
+.cartao-titulo {
+    position:absolute;
+    top:2%;
+    left:50%;
+    transform:translateX(-50%);
+    font-size:25rem;
+    letter-spacing: 5rem;
+    text-transform: uppercase;
+    color:#77797d;
+    opacity: 0.3;
+}
+
+.cartao-img {
+    position:absolute;
+    top:-5%;
+    left:-2%;
+}
+
+.sombra-1 {
+    width:20rem;
+    height:60%;
+    position:absolute;
+    top:15%;
+    left:30%;
+    background:linear-gradient(to right,transparent,rgba(0,0,0,0.7),transparent);
+    border-radius: 0 50% 50% 0;
+    filter:blur(3rem);
+    opacity:0.5;
+    transform:rotateY(45deg);
+}
+
+.sombra-2 {
+    width:20rem;
+    height:60%;
+    position:absolute;
+    top:15%;
+    left:30%;
+    background:linear-gradient(to right,transparent,rgba(0,0,0,0.7),transparent);
+    border-radius: 0 50% 50% 0;
+    filter:blur(3rem);
+    opacity:0.5;
+    transform:rotateY(45deg);
+}
+
+.sombra-3 {
+        width:55rem;
+        height:15rem;
+        background: linear-gradient(to right,transparent,rgba(0,0,0,0.4),transparent);
+        transform: rotateX(70deg) rotateZ(-30deg) translateX(5rem);
+        filter: blur(5rem);
+}
+
+.cartao-content {
+    position:absolute;
+    top:0;
+    right:0;
+    width:50%;
+    height:100%;
+    padding:5rem;
+ }
+
+  .menor-titulo {
+    margin-top:6rem;
+    font-size:5rem;
+    text-transform:uppercase;
+    background: linear-gradient(to right,#e9954f,#e4622a 30%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    text-shadow:0 0.5rem 1rem rgba(0,0,0,0.2) ;
+  }
+
+    .principal-titulo {
+        font-size:7rem;
+        text-transform:uppercase;
+        color:#fff;
+        text-shadow: 0 0.5rem 1rem rgba(0,0,0,0.2);
+        margin: 0 0 5rem 3rem;
+    }
+
+        .sub-titulo {
+        font-size:1.6rem;
+        font-weight:300;
+        text-transform:uppercase;
+        color: #fff;
+        text-shadow: 0 0.5rem 1rem rgba(0,0,0,0.2);
+        
+    }
+        .cartao-content p {
+            font-size:1.4rem;
+            color:#aaa;
+            line-height:1.2;
+            font-weight:300;
+            width:40rem;
+            margin:1rem 0 5rem 3rem;
+        }
+
+        .valor-bg {
+            position:absolute;
+            bottom: 5rem;
+            font-size: 12rem;
+            color: #77797d;
+            opacity: 0.5;
+       }
+
+       .valor-main {
+        position:absolute;
+        bottom: 8rem;
+       left: 17rem;
+       font-size: 4rem;
+       color:#fff;
+       text-shadow:0 1rem 2rem rgba(0,0,0,0.2);
+       }
+
+       .cartao-btn {
+        position:absolute;
+        bottom:11rem;
+        right: 10rem;
+        width:20rem;
+        height:5rem ;
+        border-radius:.7rem;
+        border:none;
+        background:linear-gradient(to right,#e9954f,#e4622a 30%);
+        font-size: 1.6rem;
+        text-transform: uppercase;
+        color:#fff;
+        letter-spacing: 0.1rem;
+        box-shadow:0 1rem 3rem rgba(0,0,0,0.2);
+        cursor:pointer;
+       }
+
+       .cartao-btn:active {
+        transform:translateY(-0.2rem);
+       }
